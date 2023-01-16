@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey form</title>
+</head>
+<body>
+    <h1 id ="title">Microvres Survey Form</h1>
+<p id= description> Nafees and Sam are doing this project</p>
+<form id = "survey-form">
+  <div class="row">
+    <div class="mb-3 col-lg-6"> 
+  <label for="Full name" id="name-label">
+    Full Name</label>
+    <input type="text" name="fullname" id="name" class="form-control" placeholder="name">
+    </div>
+
+    <div class="mb-3 col-lg-6"> 
+  <label for="Email" id="email-label">
+    Email</label>
+
+    <input type="Email" id="email" class="form-control" placeholder="Enter your email">
+    </div>
+
+    <div class="mb-3 col-lg-6"> 
+  <label for="Number" id="number-label">
+    Number</label>
+    <input type="tel" id="number" class="form-control" placeholder="Enter your mobile number">
+    </div >
+
+    <div>
+      <label for="gender" id="dropdown">
+        What's your gender</label>
+        <select class="form-control" title="Gender">
+          <option value= "--Select Gender--">
+            --Select Gender--</option>
+            <option value= "Male">
+            Male</option>
+            <option value= "Female">
+            Female</option>
+            <option value= "Rather Not say">
+            Rather not say</option>
+            </select>
+      </div>
+
+ <div class="mb-3 col-lg-6">
+        <p>Choose your favorite programming language </p>
+        <input type="checkbox" value=""> javascript</input>
+         <input type="checkbox"> C++</input>
+
+ <input type="checkbox"> python</input>
+
+  <input type="checkbox"> Java</input>
+        </div>
+ 
+<div>
+<p> Would you recommend microverse to a friend</p>
+<input type="radio" id="definitely" name="Opinion" value="definitely" > </input>
+<label for="definitely">Definitely</label>
+<br>
+<input type="radio" id="maybe" name="Opinion" value="maybe" > </input>
+<label for="maybe">Maybe</label>
+<br>
+<input type="radio" id="notsure" name="Opinion" value="notsure" > </input>
+<label for="notsure">Not Sure</label>
+<br>
+        </div>
+
+             <div class="mb-3 col-lg-6"> 
+  <label for="Comments" id="comment-label">
+    Commens</label>
+    <input type="text" name="comment" id="comment" class="form-control" placeholder="comment">
+    </div>
+<div>
+      <button type="Submit"> Submit
+</button>
+      </div> 
+</div>
+</form>
+</body>
+</html>

@@ -1,0 +1,57 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1524169220946-12efd782aab4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+   
+   #title {
+     color: #ffffff;
+     font-weight: bolder;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   }
+   
+   #description {
+     color: #fff;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     font-size:20px;
+   }
+   
+   #survey-form {
+     border-style: groove;
+     width: 350px;
+     height:450px;
+     line-height: 2.1;
+     padding: 20px 60px;
+     margin: 8% auto;
+     border-radius: 20px;
+     background-color: #add8e6
+   }
+   
+   #survey-form label {
+     font-weight: bolder;
+   }
+   
+   #survey-form input {
+     cursor: pointer;
+   }
+   
+   #survey-form p{
+     font-weight: bolder;
+   }
+   
+   
+   button {
+     cursor: pointer;
+     padding: 5px 150px;
+     font-size:15px;
+   }
+   
+   button:hover {
+     background-color: green;
+     color: #fff;
+     font-weight: bolder;
+   }
